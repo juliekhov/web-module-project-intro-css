@@ -1,0 +1,259 @@
+/*
+media query
+
+*/
+
+@media screen only and (max-width:500px) {
+  html {
+    font-size:62.8%;
+  }
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+**************************************************
+html {
+  font-family: 'Roboto Mono', monospace;
+  width: 1100px;
+}
+
+body {
+    width: 1100px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.logo {
+    border-radius: 50%;
+    float: left;
+    margin-left:100px;
+    margin-right:0px;
+}
+
+.section-one {
+  padding:10px;
+  margin:10px 0;
+}
+
+#moveup {
+    margin-top:20vh;
+}
+
+.content-align {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  line-height:1em;
+  font-stretch:ultra-condensed;
+}
+
+.strong {
+  font-size:1.5rem;
+  float:right;
+  margin: 5px 0;
+}
+
+.wrapword {
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+    word-break: break-all;
+    white-space: normal;
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  line-height:120%;
+  letter-spacing:2px;
+  font-size:3rem;
+}
+  
+/* still need to fix text on nav and spacing of yosemite and circle */
+
+nav ul li {
+    list-style-type: none;
+    
+}
+
+.content-row {
+    display:flex;
+    background-color:#DDB9A3;
+    padding:10px;
+    color: white;
+    line-height:110%;
+    font-family: 'Roboto Mono', monospace;
+    height:8rem;
+    width:65rem;
+}
+      
+  .content-row div {
+  margin: 0 20px;
+  width:1200px;
+}
+      
+.container {
+  margin: 0 25%;
+  font-size:0.8rem;
+  justify-content:space-around;
+  vertical-align: middle
+}
+
+.container header nav a {
+  margin: 2rem;
+  padding: 0.5rem;
+  width: 5.2rem;
+  height: 1.4rem; 
+  display: inline-block;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing:2px;
+}
+
+.plan {
+  background-color:#FF764E;
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin:0 4rem;
+}
+
+.learn {
+  background-color:#5ED3EB;
+  border-radius: 5px;
+  display: inline-block;
+  margin:0 4rem;
+}
+
+.involved {
+  background-color:#FFCD69;
+  border-radius: 5px;
+  display: inline-block;
+  margin:0 4rem;
+}
+
+.fixNav {
+    width:80vw;
+    height:2vh;
+    padding-top:60px;
+    align-items:stretch;
+}
+
+.container header nav a:hover {
+  background: white;
+  color: pink;
+}
+
+.bottomnav {
+    background-color:#F9E7DC;
+    height: 50px;
+    width: 1000px;
+    margin: 2rem;
+    padding: 0.5rem;
+    width: 5rem;
+    height: 1.4rem; 
+    display: inline-block;
+}
+
+.mountainfooter {
+  height: 250px;
+  width:1200px;
+  margin:0 0;
+}
+
+
+.fire {
+  margin:5px 450px;
+}
+
+.camper {
+    margin:5px 450px; 
+}
+
+#apricotnav {
+  background-color:#F9E7DB;
+  width:1200px;
+  margin:0 0;
+}
+
+.firetext {
+  margin:0 250px;
+  text-align:center;
+  font-size:15px;
+}
+
+.campertext {
+  margin:0 250px;
+  text-align:center;
+  font-size:15px;
+}
+
+
+
+/*
+1. Fork the repo and add me as a collaborator
+2. `git clone <link>` to get the repo on your local machine
+3. `git checkout -b <firstname-lastname>` to open a new branch
+4. `git push -u origin <firstname-lastname>` to push your branch to GitHub
+5. Open a pull request for your new branch  
+6. Submit your pull request to https://forms.lambdaschool.com/sprint-retrospective
+7. Start work on your project, commit often using `git add .`, `git commit -m "<message>"`
+8. When you're done, don't forget to `git push`
+9. Double check that your work is on GitHub
+*/
